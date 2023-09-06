@@ -3,22 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
-import { CardProfileComponent } from './components/card-profile/card-profile.component';
-import { LatestPostCardComponent } from './components/latest-post-card/latest-post-card.component';
-import { UserStatisticsCardComponent } from './components/user-statistics-card/user-statistics-card.component';
+import { ComponentsModule } from './components/components.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
-    CardProfileComponent,
-    LatestPostCardComponent,
-    UserStatisticsCardComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ComponentsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
