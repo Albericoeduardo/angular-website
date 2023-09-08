@@ -1,0 +1,95 @@
+.card-profile-container{
+  background-color: rgb(63, 85, 78);
+  width: 98vw;
+  height: 300px;
+  border-radius: 20px;
+
+  margin: 10px;
+  padding: 25px;
+  padding-top: 100px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-profile-user-stats{
+  width: 60%;
+}
+
+.card-profile-user-name h1{
+  font-size: 80px;
+  font-weight: 400;
+}
+
+.card-profile-user-name div{
+  background-color: white;
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.card-profile-user-profission{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+.card-profile-support{
+  border: 1px solid white;
+  border-radius: 20px;
+
+  margin-right: 10px;
+  width: 280px;
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-profile-support a{
+  color: white;
+  text-decoration: none;
+}
+
+.card-profile-support span{
+  background-color: grey;
+  width: 25px;
+  height: 20px;
+  border-radius: 50%;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-profile-user-photo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-profile-user-photo img{
+  border-radius: 50%;
+  width: 100px;
+}
+
+.card-profile-user-photo div{
+  background-color: rgba(128, 128, 128, 0.479);
+  border-radius: 20px;
+
+  width: 130px;
+  height: 30px;
+  margin-top: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
