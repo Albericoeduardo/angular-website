@@ -1,0 +1,59 @@
+.user-statistics-container{
+  border: 1px solid white;
+  background-color: rgb(216, 148, 22);
+  color: black;
+  border-radius: 20px;
+  margin-left: 10px;
+  padding: 20px;
+}
+
+.favorite-post{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 95%;
+  margin-bottom: 50px;
+}
+
+.favorite-post h3{
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 150px;
+  font-weight: 400;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.favorite-post span{
+  background-color: white;
+  color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statistics{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 95%;
+}
+
+.statistics p {
+  width: 150px;
+  font-weight: 700;
+}
+
+.statistics span{
+  font-size: 3em;
+  font-weight: 800;
+}

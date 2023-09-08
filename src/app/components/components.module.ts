@@ -4,6 +4,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { CardProfileComponent } from './card-profile/card-profile.component';
 import { LatestPostCardComponent } from './latest-post-card/latest-post-card.component';
 import { UserStatisticsCardComponent } from './user-statistics-card/user-statistics-card.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -12,7 +13,8 @@ import { UserStatisticsCardComponent } from './user-statistics-card/user-statist
     NavbarComponent,
     CardProfileComponent,
     LatestPostCardComponent,
-    UserStatisticsCardComponent
+    UserStatisticsCardComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule

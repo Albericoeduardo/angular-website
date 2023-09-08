@@ -73,12 +73,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+
+  margin-bottom: 10px;
+  height: 200px;
 }
 
 .card-profile-user-photo img{
   border-radius: 50%;
-  width: 100px;
 }
 
 .card-profile-user-photo div{
@@ -87,7 +89,7 @@
 
   width: 130px;
   height: 30px;
-  margin-top: 20px;
+  margin-bottom: 20px;
 
   display: flex;
   align-items: center;
