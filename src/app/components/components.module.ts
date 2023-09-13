@@ -14,7 +14,7 @@ import { FooterComponent } from './footer/footer.component';
     CardProfileComponent,
     LatestPostCardComponent,
     UserStatisticsCardComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     CommonModule
@@ -23,7 +23,8 @@ import { FooterComponent } from './footer/footer.component';
     NavbarComponent,
     CardProfileComponent,
     LatestPostCardComponent,
-    UserStatisticsCardComponent
+    UserStatisticsCardComponent,
+    FooterComponent
   ],
 })
 export class ComponentsModule { }

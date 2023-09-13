@@ -1,0 +1,23 @@
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-top: 3px solid white;
+  padding-top: 25px;
+  margin: 30px 20px 20px 20px;
+}
+
+.desc{
+  display: flex;
+}
+.credits{
+  margin-left: 100px;
+}
+.coop{
+  margin-right: 30px;
+}
+
+.lang{
+  margin-right: 50px;
+}

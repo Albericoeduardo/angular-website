@@ -1,4 +1,5 @@
 .user-statistics{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  margin-right: 20px;
 }
